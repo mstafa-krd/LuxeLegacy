@@ -1,0 +1,87 @@
+
+.fotter {
+  background-color: var(--yellow);
+  padding: 1rem 2rem; /* Reduce padding on smaller screens */
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  justify-content: space-between;
+  align-items: center;
+  color: var(--black);
+  gap: 2rem;
+  width: 100% !important;
+  height: fit-content;
+  outline: 10px solid var(--yellow);
+  outline-offset: -1px;
+}
+
+.fotter-logo {
+  max-width: 100%; /* Make the logo responsive */
+}
+
+.fotter-logo-div {
+    max-width: 40rem;
+}
+.fotter-info {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fotter-info-f {
+  display: flex;
+  flex-direction: column; /* Adjust layout for smaller screens */
+  margin-bottom: 2rem; /* Reduce margin on smaller screens */
+  gap: 2rem; /* Reduce gap on smaller screens */
+}
+
+.fotter-info-f-t {
+  font-weight: 900;
+  font-size: 2rem; /* Adjust font size for smaller screens */
+  max-width: 100%; /* Make the text responsive */
+}
+
+.fotter-info-s-t {
+  font-size: 1.4rem; /* Adjust font size for smaller screens */
+  font-weight: 600;
+  cursor: pointer;
+}
+.fotter-info-s-t a {
+  display: block;
+}
+.fotter-info-s-t a:hover,
+.fotter-info-s-t span:hover {
+  text-decoration: underline !important;
+  
+}
+
+.fotter-links {
+  display: flex;
+  flex-wrap: wrap; /* Allow links to wrap on smaller screens */
+  gap: 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.fotter-links a:hover {
+  text-decoration: underline !important;
+}
+
+.fotter-arrow {
+  font-size: 3rem; /* Adjust font size for smaller screens */
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem; /* Adjust padding for smaller screens */
+  border-radius: 50%; /* Use 50% for a circle */
+  cursor: pointer;
+  transition: 0.5s;
+  margin-right: 1rem;
+}
+
+.fotter-arrow:hover {
+  background-color: white;
+  color: black;
+}
+
+

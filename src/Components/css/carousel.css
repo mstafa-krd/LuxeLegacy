@@ -1,0 +1,109 @@
+.carousel {
+  position: absolute;
+  top: -7.5rem;
+  padding-top: 7.5rem;
+  background-color: var(--yellow);
+  height: fit-content;
+  width: 100%;
+  height: 100vh;
+
+  border-bottom: 4px solid black;
+}
+
+/* ImageSlider.css */
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slick-list {
+  margin: 0;
+  padding: 0;
+}
+
+.slick-track {
+  display: flex;
+}
+.slider-item {
+  position: relative;
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.slider-img-container {
+  position: relative;
+}
+
+.slider-img {
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  object-fit: cover;
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+  outline: 4px solid black;
+}
+.outline-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+  z-index: -1;
+  box-shadow: 0 0 0 4px black; /* Add the outline with offset */
+}
+.slider-item:hover .hero-name {
+  opacity: 1;
+}
+
+.hero-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  opacity: 0;
+  text-align: center;
+  width: 70%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+/* 588 */
+@media (max-width: 768px) {
+  .slider-img {
+    max-height: 80vh;
+  }
+}
+
+@media (min-width: 588px) and (max-width: 768px) {
+  .hero-name {
+    width: 70%;
+  }
+}

@@ -1,0 +1,102 @@
+.about {
+  display: flex;
+  padding: 3.5rem;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+  font-weight: 500;
+  gap: 5rem;
+}
+
+.f-a-s {
+  display: flex;
+  flex-direction: column; /* Change to column for smaller screens */
+  justify-content: center;
+  align-items: center;
+  gap: 3rem; /* Adjust gap for smaller screens */
+  max-width: 50rem;
+}
+
+.f-a-s img {
+  width: 100%;
+  clip-path: polygon(
+    30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%
+  );
+}
+
+.f-a-r-s {
+  font-size: 3rem;
+  max-width: 60rem;
+}
+
+.f-a-r-s h1 {
+  font-size: 6rem;
+}
+
+.s-a-s {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+  gap: 5rem;
+}
+
+.s-a-r-s {
+  font-size: 3rem;
+  max-width: 60rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.s-a-r-s a {
+  font-weight: 700;
+}
+
+.s-a-r-s a:hover {
+  text-decoration: underline !important;
+}
+
+.s-a-s h1 {
+  font-size: 4rem;
+  max-width: 70rem;
+  font-weight: 700;
+  flex: 1; /* Use available space for text */
+  color: var(--green);
+}
+
+.s-a-r-s h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.s-a-r-s p {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .f-a-s {
+    gap: 2rem; /* Adjust gap for smaller screens */
+  }
+  
+  .f-a-r-s {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .s-a-s h1 {
+    font-size: 3rem; /* Adjust font size for smaller screens */
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .s-a-r-s {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+    max-width: 100%;
+  }
+}

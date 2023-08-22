@@ -1,0 +1,33 @@
+:root {
+  --green: #10a958;
+  --white: #fff;
+  --yellow: #ffc700;
+  --black: #000000;
+    font-size: 10px; /*  if you change the font size of the root element in your CSS (as we discussed earlier), the value of 1 rem will be equal to whatever font size you set for the root element.
+
+For example, if you set the root font size to 10px, then 1 rem will be equal to 10 pixels. Similarly, if you set the root font size to 20px, then 1 rem will be equal to 20 pixels, and so on. */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+      
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+     align-items: center;
+
+}
+a {
+  text-decoration: none !important;
+  
+  color: var(--black) !important;
+ 
+}
+ul {
+ list-style-type: none;
+  
+}

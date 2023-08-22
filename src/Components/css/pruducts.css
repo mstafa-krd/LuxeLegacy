@@ -1,0 +1,86 @@
+.pruducts-box {
+  padding: 3rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.pruduct-card {
+  flex: 1 1 calc(25% - 4rem); /* Each item takes 25% width with max 4 items per row */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.pruduct-card:hover {
+  transform: scale(1.01); /* Increase the scale on hover */
+}
+.pruduct-img img {
+  max-width: 100%;
+  max-height: 50rem; /* Set a maximum height for the image */
+  border-radius: 30px;
+  object-fit: contain;
+  transition: 0.025s;
+}
+.pruduct-card:hover img {
+  border: 2px solid black;
+}
+
+.pruduct-details {
+  font-size: 1.6rem;
+  padding: 1rem;
+  font-weight: 650;
+  text-align: start;
+  width: 30rem;
+}
+.pruduct-newandprice {
+  display: flex;
+  justify-content: space-between;
+  width: 18rem;
+}
+
+.pruduct-newandprice p {
+  color: #0fa958;
+}
+
+.pruduct-newandprice span {
+  margin-right: -10rem;
+}
+
+.pruducts-name {
+  max-width: 30rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .pruduct-img img {
+    max-height: 30rem; /* Adjust the maximum height for smaller screens */
+  }
+  .pruduct-details {
+    width: 20rem;
+  }
+  .pruduct-newandprice span {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 476px) {
+  .pruduct-img img {
+    max-height: 45rem; /* Adjust the maximum height for smaller screens */
+  }
+  .pruduct-card {
+    text-align: center;
+    align-items: center;
+  }
+  .pruduct-details {
+    text-align: start;
+    width: 30rem;
+  }
+
+  .pruduct-newandprice span {
+    margin-right: -10rem;
+  }
+}

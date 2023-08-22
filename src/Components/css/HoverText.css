@@ -1,0 +1,61 @@
+
+
+.hover-text {
+  display: flex; /* Use flex display */
+  justify-content: center; /* Center-align text horizontally */
+  align-items: center; /* Center-align text vertically */
+  flex-direction: column;
+  padding: 3rem 0;
+  font-size: 5rem;
+  color: #000;
+  font-weight: 700;
+
+}
+
+.hover-text-span,.hover-text-spical {
+  margin: 1rem 1rem; /* Adjust the margins between words */
+    transition:  0.25s;
+}
+
+.hover-text-spical {
+cursor: pointer;
+  text-decoration: underline;
+}
+
+.hover-text:hover .hover-text-span {
+    color: #7f7f7fe0;
+}
+
+.empty {
+    text-decoration: none !important;
+    display: inline-block;
+    margin-left: -2.5rem;
+}
+@media (max-width: 930px){
+.hover-text {
+    font-size: 4rem;
+}
+
+}
+
+@media (max-width: 775px){
+.hover-text {
+    font-size: 3rem;
+}
+}
+
+@media (max-width: 587px){
+.hover-text {
+font-size: 2rem;
+
+}
+.empty {
+    margin-left: -1rem;
+}
+}
+
+@media (max-width: 402px){
+.hover-text {
+font-size: 1.4rem;
+}
+}

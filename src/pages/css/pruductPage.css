@@ -1,0 +1,136 @@
+  /* Hide the number input arrows */
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+
+.pruduct {
+  padding: 2rem;
+  display: flex;
+  gap: 5rem;
+  padding-bottom: 10rem;
+  justify-content: center;
+}
+
+.side-img {
+  width: 20rem;
+  display: flex;
+  
+  flex-direction: column;
+}
+.side-img img {
+  height: 11rem;
+  object-fit: cover;
+  object-position: 70% 70%;
+  border-radius: 20px;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+
+.main-img {
+  max-width: 60rem;
+}
+
+.main-img img {
+  width: 100%;
+  border-radius: 100px;
+}
+
+.right-info,.right-info-s-s {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: #000;
+
+}
+.right-info {
+  width: 100rem;
+}
+.type {
+  background-color: #0fa958;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0.5rem 2rem;
+  width: fit-content;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.pruduct-name {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.pruduct-number {
+    color: #000;
+    font-weight: 700;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.add-min-btn {
+    transition: 0.5s;
+}
+.add-min-btn:hover {
+    background: #000;
+    color: white;
+    cursor: pointer;
+}
+
+
+.pruduct-price {
+    border: 2px solid #000;
+    border-radius: 40px;
+    text-align: center;
+    padding: 0.8rem ;
+    max-width: 50rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 2rem;
+    font-weight: 500;
+    max-width: 35rem;
+}
+
+.orders-input{
+  border: none;
+  width: 5rem;
+  text-align: center;
+  font-weight: 700;
+}
+/* small screens */ /* small screens */ /* small screens */ /* small screens */
+
+.pruduct-s-s {
+   flex-direction: column
+   
+}
+
+.img-s-s{
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    max-width: 35rem ;
+
+padding-right: 1rem;
+   border: none !important;
+}
+
+.img-s-s img{
+ border-radius: 30px;
+ width: 100%;
+  object-position: 70% 70%;
+  
+  overflow: hidden;
+
+}
+
+
+.pruduct-price-s-s {
+   max-width: 95rem ;
+}

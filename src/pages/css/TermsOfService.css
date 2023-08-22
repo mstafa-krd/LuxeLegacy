@@ -1,0 +1,11 @@
+.terms-of-service {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+.terms-of-service h1 {
+    margin-bottom: 4rem;
+}
