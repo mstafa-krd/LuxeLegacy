@@ -2,7 +2,7 @@
   "homepage": "https://mstafa-krd.github.io/LuxeLegacy",
   "name": "clinet",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
