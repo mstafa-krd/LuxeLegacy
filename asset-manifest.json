@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LuxeLegacy/static/css/main.7a9d5ea9.css",
-    "main.js": "/LuxeLegacy/static/js/main.ec500ecd.js",
+    "main.js": "/LuxeLegacy/static/js/main.9fb2f1c3.js",
     "static/media/figma-store_dress-code-hat_01_1000x.png": "/LuxeLegacy/static/media/figma-store_dress-code-hat_01_1000x.40c2f3a7c33a56c7c31b.png",
     "static/media/Notebook_54df7006-77df-4397-a719-c2b49bc9df74_1200x.png": "/LuxeLegacy/static/media/Notebook_54df7006-77df-4397-a719-c2b49bc9df74_1200x.4880f7a0a2696e279738.png",
     "static/media/Untitled design (2).png": "/LuxeLegacy/static/media/Untitled design (2).93db1e7ca5ffbe801006.png",
@@ -54,10 +54,10 @@
     "static/media/slick.woff": "/LuxeLegacy/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/LuxeLegacy/index.html",
     "main.7a9d5ea9.css.map": "/LuxeLegacy/static/css/main.7a9d5ea9.css.map",
-    "main.ec500ecd.js.map": "/LuxeLegacy/static/js/main.ec500ecd.js.map"
+    "main.9fb2f1c3.js.map": "/LuxeLegacy/static/js/main.9fb2f1c3.js.map"
   },
   "entrypoints": [
     "static/css/main.7a9d5ea9.css",
-    "static/js/main.ec500ecd.js"
+    "static/js/main.9fb2f1c3.js"
   ]
 }
