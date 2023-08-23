@@ -23,7 +23,7 @@ export default function App() {
   };
   return (
     <div>
-      <Routes basename="/">
+      <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/product/:name" element={<PruductPage />} />
