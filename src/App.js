@@ -1,5 +1,4 @@
 import "@stripe/stripe-js";
-
 import { Outlet, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import PruductPage from "./pages/PruductPage";
@@ -24,7 +23,7 @@ export default function App() {
   };
   return (
     <div>
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/product/:name" element={<PruductPage />} />
