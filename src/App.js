@@ -24,17 +24,17 @@ export default function App() {
   return (
     <div>
       <Routes basename={process.env.PUBLIC_URL}>
-        <Route path="/" element={<Layout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/product/:name" element={<PruductPage />} />
-          <Route path="/product/:name/:id" element={<PruductPage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/terms-of-service" element={<TermsOfService />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/cancel" element={<Cancel />} />
-          <Route path="/search/:word" element={<SearchPage />} />
+        <Route path="" element={<Layout />}>
+          <Route path="" element={<Home />} />
+          <Route path="product/:name" element={<PruductPage />} />
+          <Route path="product/:name/:id" element={<PruductPage />} />
+          <Route path="about" element={<About />} />
+          <Route path="terms-of-service" element={<TermsOfService />} />
+          <Route path="cart" element={<Cart />} />
+          <Route path="cancel" element={<Cancel />} />
+          <Route path="search/:word" element={<SearchPage />} />
         </Route>
-        <Route path="/success" element={<Success />} />
+        <Route path="success" element={<Success />} />
       </Routes>
     </div>
   );
